@@ -4,7 +4,7 @@ In these notes I will put some code written in Sonic Pi.
 
 ## Creativity = {:Mathematical Music Theory => Computer Application }
 
-In the main 
+
 
 >One of the goals of mathematical music theory is to anchor in the beautiful port of computational application. 
 >So it's good for intuitive (maybe not >:) composition or analysis on a giant set of musical data. 
