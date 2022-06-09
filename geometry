@@ -1,5 +1,5 @@
 
-```ruby
+
 ### Ruby Code (Not recommended) ###
 
 # def parabolic_harmony (ring_field, k, h, a)
@@ -34,4 +34,4 @@ p = parabolic_harmony(12,3,7,1)
     sleep 1
   end
 end
-```
+
