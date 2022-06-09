@@ -5,6 +5,7 @@ In these notes I will put some code written in Sonic Pi.
 ## Creativity = {:Mathematical Music Theory => Computer Application }
 
 ```ruby
+## DJ_Edelve
 define :parabolic_harmony do |ring_field, k, h, a|
     x = (0...ring_field).to_a
     y = []
