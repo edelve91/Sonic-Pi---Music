@@ -4,27 +4,9 @@ In these notes I will put some code written in Sonic Pi.
 
 ## Creativity = {:Mathematical Music Theory => Computer Application }
 
-```ruby
+In the main 
 
-## DJ_Edelve
-
-define :parabolic_harmony do |ring_field, k, h, a|
-    x = (0...ring_field).to_a
-    y = []
-    for i in (0...ring_field).to_a
-      parabola_equation = ((a*(i - h) ** 2 + k) % ring_field)
-      y.push(parabola_equation)
-    end
-    points = x.zip(y)
-end
-
-p = parabolic_harmony(12,3,7,1)
-
-12.times do
-  with_octave 5 do
-    puts p
-    synth :dsaw, note: p.shuffle.tick
-    sleep 1
-  end
-end
-```
+>One of the goals of mathematical music theory is to anchor in the beautiful port of computational application. 
+>So it's good for intuitive (maybe not >:) composition or analysis on a giant set of musical data. 
+>Then, this cycle is fed back in the appearance of new music and, therefore, in new theory. 
+>Structural Music Information Research Project (SMIR)
