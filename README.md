@@ -7,7 +7,7 @@ In these notes I will put some code written in Sonic Pi.
 ```ruby
 12.times do
   with_octave 5 do
-    puts p
+    puts p.tick
     play p.reverse.tick
     sleep 1
   end
