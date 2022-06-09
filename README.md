@@ -7,6 +7,7 @@ In these notes I will put some code written in Sonic Pi.
 ```ruby
 
 ## DJ_Edelve
+
 define :parabolic_harmony do |ring_field, k, h, a|
     x = (0...ring_field).to_a
     y = []
@@ -16,7 +17,6 @@ define :parabolic_harmony do |ring_field, k, h, a|
     end
     points = x.zip(y)
 end
-
 
 p = parabolic_harmony(12,3,7,1)
 
